@@ -15,7 +15,7 @@ const appConfig = useAppConfig()
             </div>
             <div class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3">
               <div class="flex w-full gap-6 justify-evenly">
-                <p class=" w-full text-m">Hello! I Am <span class=" text-blue-200">Basilica Benjamin</span></p>
+                <p class=" w-full text-m">Hello! I Am <span class=" text-blue-200">Benjamin Kitonga</span></p>
               </div>
               <div class="flex flex-col gap-2">
                 <p class="font-[Preahvihear, poppins] text-sm underline">A Designer who</p>
