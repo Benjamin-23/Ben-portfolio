@@ -110,7 +110,7 @@ const appConfig = useAppConfig()
           </div>
         </div>
         <!-- skills  -->
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 text-center h-full">
           <p class="text-white text-2xl font-bold">I'm currently looking to join a <span
               class="text-blue-200">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
               improving people's lives through accessible design </span></p>
