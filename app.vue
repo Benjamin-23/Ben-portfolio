@@ -6,9 +6,9 @@ const appConfig = useAppConfig()
   <NuxtLayout>
     <div class="flex mt-12 w-full justify-center mb-8">
       <div class="flex flex-col gap-12 max-w-[60%] max-md:max-w-[80%]">
-        <!-- Homre page -->
+        <!-- Home page -->
         <!--  -->
-        <div class="flex flex-col w-full gap-6">
+        <div class="flex flex-col w-full gap-6 h-[90vh] justify-center">
           <div class="flex">
             <div class="radical-bg justify-center items-center flex">
               <img src="@/assets/images/profile.svg" alt="loading" class="w-60">
