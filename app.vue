@@ -110,7 +110,7 @@ const appConfig = useAppConfig()
           </div>
         </div>
         <!-- skills  -->
-        <div class="flex flex-col text-center">
+        <div class="flex flex-col text-center gap-4">
           <p class="text-white text-2xl font-bold">I'm currently looking to join a <span
               class="text-blue-200">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
               improving people's lives through accessible design </span></p>
@@ -142,10 +142,9 @@ const appConfig = useAppConfig()
             </div>
             <!-- project image -->
             <div class="project-radical w-2/5 bg-repeat-x bg-center ml-[-40px] flex justify-center">
-              <img src="@/assets/images/project2.svg" alt="">
+              <img src="@/assets/images/project2.svg " alt="" >
             </div>
           </div>
-
 
           <div class="flex">
             <!-- project image -->
