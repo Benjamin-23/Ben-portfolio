@@ -31,7 +31,9 @@ const appConfig = useAppConfig()
           <div class="text-white flex flex-col gap-4">
             <div class="">
               <p class="text-2xl text-white font-bold">I'm a frontend Developer.I</p>
-              <p class="text-white">Currently, I'm a Software Engineer at</p>
+              <p class="text-white flex gap-2">Currently, I'm a Software Engineer at <span>
+                <img src="@/assets/images/companyLogo.svg" alt="" class=" w-4">
+              </span> <span class=" hover:text-orange-400">Artemis</span></p>
             </div>
             <div class="">
               <p class="font-light text-lg ">A self-taught UI/UX designer, functioning in the industry
@@ -115,7 +117,7 @@ const appConfig = useAppConfig()
               class="text-blue-200">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
               improving people's lives through accessible design </span></p>
           <div class="">
-            <img src="@/assets/images/backGround.svg" alt="loading">
+            <img src="@/assets/images/backGround.svg" alt="loading" class=" w-90">
           </div>
         </div>
         <!-- projects  -->
