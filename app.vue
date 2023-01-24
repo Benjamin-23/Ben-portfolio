@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 const runtimeConfig = useRuntimeConfig()
 const appConfig = useAppConfig()
+
 </script>
 <template>
   <NuxtLayout>
@@ -8,12 +9,12 @@ const appConfig = useAppConfig()
       <div class="flex flex-col gap-12 max-w-[60%] max-md:max-w-[80%]">
         <!-- Home page -->
         <!--  -->
-        <div class="flex flex-col w-full gap-6 h-[90vh] justify-center">
-          <div class="flex">
+        <div class="flex flex-col w-full gap-6 h-[90vh] justify-center max-md:h-full">
+          <div class="flex max-md:flex-col">
             <div class="radical-bg justify-center items-center flex">
-              <img src="@/assets/images/profile.svg" alt="loading" class="w-60">
+              <img src="@/assets/images/profile.svg" alt="loading" class="w-60 max-md:w-48">
             </div>
-            <div class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3">
+            <div class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
               <div class="flex w-full gap-6 justify-evenly">
                 <p class=" w-full text-m">Hello! I Am <span class=" text-blue-200">Benjamin Kitonga</span></p>
               </div>
