@@ -14,7 +14,8 @@ const appConfig = useAppConfig()
             <div class="radical-bg justify-center items-center flex">
               <img src="@/assets/images/profile.svg" alt="loading" class="w-60 max-md:w-48">
             </div>
-            <div class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
+            <div
+              class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
               <div class="flex w-full gap-6 justify-evenly">
                 <p class=" w-full text-m">Hello! I Am <span class=" text-blue-200">Benjamin Kitonga</span></p>
               </div>
@@ -33,8 +34,8 @@ const appConfig = useAppConfig()
             <div class="">
               <p class="text-2xl text-white font-bold">I'm a frontend Developer.I</p>
               <p class="text-white text-lg flex gap-2 md:text-sm ">Currently, I'm a Software Engineer at <span>
-                <img src="@/assets/images/companyLogo.svg" alt="loading" class=" w-4">
-              </span> <span class=" hover:text-orange-400">Artemis</span></p>
+                  <img src="@/assets/images/companyLogo.svg" alt="loading" class=" w-4">
+                </span> <span class=" hover:text-orange-400">Artemis</span></p>
             </div>
             <div class="">
               <p class="font-light text-2xl max-md:text-base ">A self-taught UI/UX designer, functioning in the industry
@@ -55,25 +56,27 @@ const appConfig = useAppConfig()
                 <div class="flex gap-4 max-md:flex-col">
                   <AppCard>
                     <div class="flex p-2 gap-2 max-md:gap-1">
-                      <img src="@/assets/images/card1.svg" alt="loading"  class=" w-20 max-md:w-16">
+                      <img src="@/assets/images/card1.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
                         <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
                         <p class="text-[10px]">Take your client onboard seamlessly by our amazing
                           tool of digital onboard process</p>
-                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
+                        <button
+                          class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
                       </div>
 
                     </div>
                   </AppCard>
                   <AppCard>
-                    <div class="flex p-2 gap-2">
-                      <img src="@/assets/images/card2.svg" alt="loading" width="96">
+                    <div class="flex p-2 gap-2 max-md:gap-1">
+                      <img src="@/assets/images/card2.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold">CIB on the Mobile</h4>
+                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
                         <p class="text-[10px]">Take your client onboard seamlessly by our amazing
                           tool of digital onboard process</p>
-                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl">LEARN
+                        <button
+                          class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
                       </div>
 
@@ -82,26 +85,28 @@ const appConfig = useAppConfig()
                 </div>
                 <div class="flex gap-4 max-md:flex-col">
                   <AppCard>
-                    <div class="flex p-2 gap-2">
-                      <img src="@/assets/images/card3.svg" alt="loading" width="96">
+                    <div class="flex p-2 gap-2 max-md:gap-1">
+                      <img src="@/assets/images/card3.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold">CIB on the Mobile</h4>
+                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
                         <p class="text-[10px]">Take your client onboard seamlessly by our amazing
                           tool of digital onboard process</p>
-                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl">LEARN
+                        <button
+                          class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
                       </div>
 
                     </div>
                   </AppCard>
                   <AppCard>
-                    <div class="flex p-2 gap-2">
-                      <img src="@/assets/images/card4.svg" alt="loading" width="96">
+                    <div class="flex p-2 gap-2 max-md:gap-1">
+                      <img src="@/assets/images/card4.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold">CIB on the Mobile</h4>
+                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
                         <p class="text-[10px]">Take your client onboard seamlessly by our amazing
                           tool of digital onboard process</p>
-                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl">LEARN
+                        <button
+                          class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
                       </div>
 
@@ -145,7 +150,7 @@ const appConfig = useAppConfig()
             </div>
             <!-- project image -->
             <div class="project-radical w-2/5 bg-repeat-x bg-center ml-[-40px] flex justify-center">
-              <img src="@/assets/images/project2.svg " alt="" >
+              <img src="@/assets/images/project2.svg " alt="">
             </div>
           </div>
 
@@ -179,7 +184,8 @@ const appConfig = useAppConfig()
         <div class="flex flex-col gap-6 text-white w-[75%]">
           <h2 class="">Contact</h2>
           <div class="flex flex-col gap-2">
-            <p class="text-sm">I'm currently looking to join a cross-functional team that values improving people's lives
+            <p class="text-sm">I'm currently looking to join a cross-functional team that values improving people's
+              lives
               through accessible design. or have a project in mind? Let's connect.</p>
             <p class="text-sm">kitongabenja34@gmail.com</p>
           </div>
