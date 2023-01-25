@@ -32,12 +32,12 @@ const appConfig = useAppConfig()
           <div class="text-white flex flex-col gap-4">
             <div class="">
               <p class="text-2xl text-white font-bold">I'm a frontend Developer.I</p>
-              <p class="text-white flex gap-2">Currently, I'm a Software Engineer at <span>
-                <img src="@/assets/images/companyLogo.svg" alt="" class=" w-4">
+              <p class="text-white text-lg flex gap-2 md:text-sm ">Currently, I'm a Software Engineer at <span>
+                <img src="@/assets/images/companyLogo.svg" alt="loading" class=" w-4">
               </span> <span class=" hover:text-orange-400">Artemis</span></p>
             </div>
             <div class="">
-              <p class="font-light text-lg ">A self-taught UI/UX designer, functioning in the industry
+              <p class="font-light text-2xl max-md:text-base ">A self-taught UI/UX designer, functioning in the industry
                 for 3+ years now.
                 I make meaningful and delightful digital products that create an equilibrium
                 between user needs and business goals.
@@ -54,13 +54,13 @@ const appConfig = useAppConfig()
               <div class="flex flex-col gap-4">
                 <div class="flex gap-4 max-md:flex-col">
                   <AppCard>
-                    <div class="flex p-2 gap-2">
-                      <img src="@/assets/images/card1.svg" alt="loading" width="96">
+                    <div class="flex p-2 gap-2 max-md:gap-1">
+                      <img src="@/assets/images/card1.svg" alt="loading"  class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold">CIB on the Mobile</h4>
+                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
                         <p class="text-[10px]">Take your client onboard seamlessly by our amazing
                           tool of digital onboard process</p>
-                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl">LEARN
+                        <button class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
                       </div>
 
