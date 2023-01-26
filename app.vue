@@ -127,9 +127,10 @@ const appConfig = useAppConfig()
           </div>
         </div>
         <!-- projects  -->
-        <div class=" my-4 flex flex-col gap-12">
+        <div id="lab"></div>
+        <div class=" my-4 flex flex-col gap-12 -z-10 ">
           <div class="flex">
-            <div class="flex flex-col text-white gap-2 w-3/5 z-10">
+            <div class="flex flex-col text-white gap-2 w-3/5 z-10 max-md:w-full">
               <div class="">
                 <span class=" text-xs text-blue-200 font-medium">Featured Project</span>
                 <h4 class=" text-lg font-bold">Example Project</h4>
@@ -149,17 +150,17 @@ const appConfig = useAppConfig()
               </div>
             </div>
             <!-- project image -->
-            <div class="project-radical w-2/5 bg-repeat-x bg-center ml-[-40px] flex justify-center">
+            <div class="project-radical w-2/5 bg-repeat-x bg-center ml-[-40px] flex justify-center max-md:w-full">
               <img src="@/assets/images/project2.svg " alt="">
             </div>
           </div>
 
           <div class="flex">
             <!-- project image -->
-            <div class="project-radical w-2/5 bg-repeat-x bg-center flex justify-center">
+            <div class="project-radical w-2/5 bg-repeat-x bg-center flex justify-center max-md:w-full ">
               <img src="@/assets/images/project2.svg" alt="">
             </div>
-            <div class="flex flex-col text-white gap-2 w-3/5 z-10 items-end ml-[-40px]">
+            <div class="flex flex-col text-white gap-2 w-3/5 z-10 items-end ml-[-40px] max-md:w-full">
               <div class=" text-right">
                 <span class="text-blue-200 font-medium text-xs">Featured Project</span>
                 <h4 class=" font-bold text-lg">Example Project</h4>
@@ -238,9 +239,7 @@ const appConfig = useAppConfig()
 }
 
 .radical-card {
-  background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%)
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-  ;
+  background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
   background-blend-mode: overlay, normal;
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
