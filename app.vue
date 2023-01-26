@@ -9,13 +9,13 @@ const appConfig = useAppConfig()
       <div class="flex flex-col gap-12 max-w-[60%] max-md:max-w-[80%]">
         <!-- Home page -->
         <!--  -->
-        <div class="flex flex-col w-full gap-6 h-[90vh] justify-center max-md:h-full">
+        <div class="flex flex-col w-full gap-6 h-screen justify-center max-md:h-full max-lg:justify-center">
           <div class="flex max-md:flex-col">
             <div class="radical-bg justify-center items-center flex">
               <img src="@/assets/images/profile.svg" alt="loading" class="w-60 max-md:w-48">
             </div>
             <div
-              class="flex-col relative gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
+              class="flex-col  gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
               <div class="flex w-full gap-6 justify-evenly">
                 <p class=" w-full text-m">Hello! I Am <span class=" text-blue-200">Benjamin Kitonga</span></p>
               </div>
@@ -33,12 +33,10 @@ const appConfig = useAppConfig()
           <div class="text-white flex flex-col gap-4">
             <div class="">
               <p class="text-2xl text-white font-bold">I'm a frontend Developer.I</p>
-              <p class="text-white text-lg flex gap-2 md:text-sm ">Currently, I'm a Software Engineer at <span>
-                  <img src="@/assets/images/companyLogo.svg" alt="loading" class=" w-4">
-                </span> <span class=" hover:text-orange-400">Artemis</span></p>
+              <p class="text-white text-lg md:text-sm ">Currently, I'm a Software Engineer at Artemis</p>
             </div>
             <div class="">
-              <p class="font-light text-2xl max-md:text-base ">A self-taught UI/UX designer, functioning in the industry
+              <p class="font-light text-xl max-md:text-base ">A self-taught UI/UX designer, functioning in the industry
                 for 3+ years now.
                 I make meaningful and delightful digital products that create an equilibrium
                 between user needs and business goals.
@@ -118,12 +116,12 @@ const appConfig = useAppConfig()
           </div>
         </div>
         <!-- skills  -->
-        <div class="flex flex-col text-center gap-4">
-          <p class="text-white text-2xl font-bold">I'm currently looking to join a <span
+        <div class="flex flex-col text-center gap-4 max-md:gap-14">
+          <p class="text-white text-2xl font-bold max-md:[ text-xl, font-semibold]">I'm currently looking to join a <span
               class="text-blue-200">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
               improving people's lives through accessible design </span></p>
           <div class="">
-            <img src="@/assets/images/backGround.svg" alt="loading" class=" w-90">
+            <img src="@/assets/images/backGround.svg" alt="loading" class=" w-84 max-md:scale-[1.2]" >
           </div>
         </div>
         <!-- projects  -->
