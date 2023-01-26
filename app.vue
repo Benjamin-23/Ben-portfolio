@@ -9,7 +9,7 @@ const appConfig = useAppConfig()
       <div class="flex flex-col gap-12 max-w-[60%] max-md:max-w-[80%]">
         <!-- Home page -->
         <!--  -->
-        <div class="flex flex-col w-full gap-6 h-screen justify-center max-md:h-full max-lg:justify-center">
+        <div class="flex flex-col w-full gap-6 h-[85vh] justify-center max-md:h-full">
           <div class="flex max-md:flex-col">
             <div class="radical-bg justify-center items-center flex">
               <img src="@/assets/images/profile.svg" alt="loading" class="w-60 max-md:w-48">
