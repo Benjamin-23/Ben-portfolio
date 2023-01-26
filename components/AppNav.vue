@@ -27,9 +27,9 @@ function activeMediaScreen() {
         v-if="sideActive">
         <p class=" text-right text-xl" @click="activeMediaScreen()">X</p>
         <div class="flex flex-col text-[17px] gap-1 ">
-          <a class="hover:text-orange-400" href="/"> Home</a>
-          <a  class="hover:text-orange-400" href="#about">About </a>
-          <a  class="hover:text-orange-400 bg-none"  href="#lab">Lab</a>
+          <a class="hover:text-orange-400" href="/" @click="activeMediaScreen()"> Home</a>
+          <a  class="hover:text-orange-400" href="#about" @click="activeMediaScreen()">About </a>
+          <a  class="hover:text-orange-400 bg-none"  href="#lab" @click="activeMediaScreen()">Lab</a>
         </div>
 
       </div>
