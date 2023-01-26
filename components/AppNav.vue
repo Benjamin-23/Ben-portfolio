@@ -33,7 +33,7 @@ function activeMediaScreen() {
         </div>
 
       </div>
-      <div class="flex w-full bg-blue-100 justify-around items-center py-2 fixed top-0 " v-else>
+      <div class="flex w-full bg-blue-100 justify-between px-4 items-center py-2 fixed top-0 " v-else>
         <img src="@/assets/images/Logo.svg" alt="logo" width="32">
         <button class="text-white md:hidden" @click="activeMediaScreen()"><img src="@/assets/images/Humberger.svg"
             alt="" class="w-10">
