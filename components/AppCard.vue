@@ -1,5 +1,5 @@
 <template>
-<div class="mb-4">  
+<div class="mb-4 transition ease-in-out delay-100 hover:scale-105 hover:animate-pulse">  
     <div class="card ">
         <div class="smallCard  flex items-center">
             <slot></slot>

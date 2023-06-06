@@ -22,8 +22,10 @@ const appConfig = useAppConfig()
               <div class="flex flex-col gap-2">
                 <p class="font-[Preahvihear, poppins] text-sm underline">A Designer who</p>
                 <h1 class="font-bold text-[2em] max-sm:text-[1.5em]">Judges a book <br> by its <span
-                    class="text-blue-200 cover p-1 ">cover</span>...</h1>
-                <span class="text-xs">Because if the cover does not impress you what else can?</span>
+                    class="text-blue-200 cover p-1 text-ellipsis">cover</span>...</h1>
+                <span class="text-xs">Because if the cover does not impress you what else can? 😂 </span>
+                <span class="text-sm animate-bounce text-red-500 underline decoration-pink-500">Kidding 🔞</span>
+
               </div>
             </div>
           </div>
@@ -35,12 +37,14 @@ const appConfig = useAppConfig()
               <p class="text-2xl text-white font-bold">I'm a frontend Developer.I</p>
               <p class="text-white text-lg md:text-sm ">Currently, I'm a Software Engineer at Artemis</p>
             </div>
-            <div class="">
-              <p class="font-light text-xl max-md:text-base ">A self-taught UI/UX designer, functioning in the industry
+            <div class=" flex flex-col gap-8">
+              <p class="font-light text-md max-md:text-base">A self-taught UI/UX designer, functioning in the industry
                 for 3+ years now.
                 I make meaningful and delightful digital products that create an equilibrium
                 between user needs and business goals.
+
               </p>
+             <button class=" bg-blue-200 border-solid border-2 border-blue-100 w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md">Make a call</button>
             </div>
 
           </div>
@@ -56,9 +60,10 @@ const appConfig = useAppConfig()
                     <div class="flex p-2 gap-2 max-md:gap-1">
                       <img src="@/assets/images/card1.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
-                        <p class="text-[10px]">Take your client onboard seamlessly by our amazing
-                          tool of digital onboard process</p>
+                        <h4 class="text-xl font-bold max-md:text-lg">Bulk SMS Project</h4>
+                        <p class="text-[10px]">A sms platform , Help organizations to communicate 
+                          with there customer with only one tap 
+                        </p>
                         <button
                           class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
@@ -70,9 +75,10 @@ const appConfig = useAppConfig()
                     <div class="flex p-2 gap-2 max-md:gap-1">
                       <img src="@/assets/images/card2.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
-                        <p class="text-[10px]">Take your client onboard seamlessly by our amazing
-                          tool of digital onboard process</p>
+                        <h4 class="text-xl font-bold max-md:text-lg">Teleporting Websites</h4>
+                        <p class="text-[10px]">Connecting Websites with the current AI technology and
+                          Creating a robotic static pages. 
+                        </p>
                         <button
                           class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
@@ -86,9 +92,10 @@ const appConfig = useAppConfig()
                     <div class="flex p-2 gap-2 max-md:gap-1">
                       <img src="@/assets/images/card3.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
-                        <h4 class="text-xl font-bold max-md:text-lg">CIB on the Mobile</h4>
-                        <p class="text-[10px]">Take your client onboard seamlessly by our amazing
-                          tool of digital onboard process</p>
+                        <h4 class="text-xl font-bold max-md:text-lg">Mobile & Desktop Apps</h4>
+                        <p class="text-[10px]">Creating with Flutter vanishing with Electron
+                          better experience.Well customized designs  
+                        </p>
                         <button
                           class=" border-blue-300 bg-blue-300 py-2 w-2/5 text-[9px] rounded-xl max-md:text-[7.5px]">LEARN
                           MORE</button>
@@ -131,32 +138,32 @@ const appConfig = useAppConfig()
             <div class="flex flex-col text-white gap-2 w-3/5 z-10 max-md:w-full">
               <div class="">
                 <span class=" text-xs text-blue-200 font-medium">Featured Project</span>
-                <h4 class=" text-lg font-bold">Example Project</h4>
+                <h4 class=" text-lg font-bold animate-pulse">Example Project</h4>
               </div>
 
               <div class=" bg-blue-100 rounded-2xl">
-                <p class=" text-xs p-2 radical-card">
+                <p class=" text-xs px-2  py-4 radical-card">
                   A web app for visualizing personalized Spotify data. View your
                   top artists, top tracks, recently played tracks, and detailed audio
                   information about each track. Create and save new playlists of
                   recommended tracks based on your existing playlists and more.
                 </p>
               </div>
-              <div class="flex gap-2">
-                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class=" w-4">
-                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class=" w-4">
+              <div class="flex gap-2 ">
+                <img  src="@/assets/images/icon-park-solid_click.svg" alt="" class=" w-4 animate-spin">
+                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class=" w-4 animate-spin">
               </div>
             </div>
             <!-- project image -->
             <div class="project-radical w-2/5 bg-repeat-x bg-center ml-[-40px] flex justify-center max-md:w-full">
-              <img src="@/assets/images/project2.svg " alt="">
+              <img src="@/assets/images/project2.svg " alt="loading " class=" hover:backdrop-blur">
             </div>
           </div>
 
           <div class="flex">
             <!-- project image -->
-            <div class="project-radical w-2/5 bg-repeat-x bg-center flex justify-center max-md:w-full ">
-              <img src="@/assets/images/project2.svg" alt="">
+            <div class="project-radical w-2/5 bg-repeat-x bg-center flex justify-center max-md:w-full">
+              <img src="@/assets/images/project2.svg" alt="loading">
             </div>
             <div class="flex flex-col text-white gap-2 w-3/5 z-10 items-end ml-[-40px] max-md:w-full">
               <div class=" text-right">
@@ -165,7 +172,7 @@ const appConfig = useAppConfig()
               </div>
 
               <div class=" bg-blue-100 rounded-2xl">
-                <p class=" text-xs p-2 radical-card">
+                <p class=" text-xs px-2 py-4 radical-card">
                   A web app for visualizing personalized Spotify data. View your
                   top artists, top tracks, recently played tracks, and detailed audio
                   information about each track. Create and save new playlists of
@@ -173,8 +180,8 @@ const appConfig = useAppConfig()
                 </p>
               </div>
               <div class="flex gap-2">
-                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class="w-4">
-                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class="w-4">
+                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class="w-4 animate-spin">
+                <img src="@/assets/images/icon-park-solid_click.svg" alt="" class="w-4 animate-spin">
               </div>
             </div>
           </div>
