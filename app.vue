@@ -12,7 +12,7 @@ const appConfig = useAppConfig()
         <div class="flex flex-col w-full gap-6 h-[85vh] justify-center max-md:h-full">
           <div class="flex max-md:flex-col">
             <div class="radical-bg justify-center items-center flex">
-              <img src="@/assets/images/profile.svg" alt="loading" class="w-60 max-md:w-48">
+              <img src="@/assets/images/profile.svg" alt="loading" class="w-60 cursor-grabbing max-md:w-48 hover:skew-y-2">
             </div>
             <div
               class="flex-col  gap-10 flex ml-[-20px] text-white mt-4 max-sm:gap-6 max-sm:mt-3 max-md:items-center max-md:px-4">
@@ -44,7 +44,7 @@ const appConfig = useAppConfig()
                 between user needs and business goals.
 
               </p>
-             <button class=" bg-blue-200 border-solid border-2 border-blue-100 w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md">Make a call</button>
+             <button class=" bg-blue-200 border-none w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md ring ring-purple-600 ring-offset-4 outline-none dark:ring-offset-blue-100">Make a call</button>
             </div>
 
           </div>
@@ -125,7 +125,7 @@ const appConfig = useAppConfig()
         <!-- skills  -->
         <div class="flex flex-col text-center gap-4 max-md:gap-14">
           <p class="text-white text-2xl font-bold max-md:[ text-xl, font-semibold]">I'm currently looking to join a <span
-              class="text-blue-200">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
+              class="text-blue-200 line-through tracking-wide">cross-functional</span> team <br> <span class=" text-[.7em] font-medium">that values
               improving people's lives through accessible design </span></p>
           <div class="">
             <img src="@/assets/images/backGround.svg" alt="loading" class=" w-84 max-md:scale-[1.2]" >
