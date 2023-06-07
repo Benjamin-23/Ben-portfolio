@@ -38,11 +38,11 @@ const appConfig = useAppConfig()
               <p class="text-white text-lg md:text-sm ">Currently, I'm a Software Engineer at Artemis</p>
             </div>
             <div class=" flex flex-col gap-8">
-              <p class="font-light text-md max-md:text-base">A self-taught UI/UX designer, functioning in the industry
-                for 3+ years now.
+              <p class="font-light text-md max-md:text-base">A self-taught UI/UX designer, 
+                functioning in the industryfor 3+ years now.
                 I make meaningful and delightful digital products that create an equilibrium
                 between user needs and business goals.
-
+                I'm solving your problems with code and create the best product
               </p>
              <button class=" bg-blue-200 border-none w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md ring ring-purple-600 ring-offset-4 outline-none dark:ring-offset-blue-100">Make a call</button>
             </div>
@@ -93,7 +93,7 @@ const appConfig = useAppConfig()
                       <img src="@/assets/images/card3.svg" alt="loading" class=" w-20 max-md:w-16">
                       <div class="flex flex-col text-white gap-2">
                         <h4 class="text-xl font-bold max-md:text-lg">Mobile & Desktop Apps</h4>
-                        <p class="text-[10px]">Creating with Flutter vanishing with Electron
+                        <p class="text-[10px]">Creating with Flutter furnishing with Electron for
                           better experience.Well customized designs  
                         </p>
                         <button
