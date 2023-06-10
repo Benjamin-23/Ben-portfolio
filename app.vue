@@ -1,6 +1,12 @@
 <script lang="ts" setup>
 const runtimeConfig = useRuntimeConfig()
 const appConfig = useAppConfig()
+function makecall (){
+  let number = "+254716613981"
+  let whatsappApiUrl= `https://wa.me/${number}`
+  window.open( whatsappApiUrl, "_blank")
+  
+}
 
 </script>
 <template>
@@ -44,7 +50,7 @@ const appConfig = useAppConfig()
                 between user needs and business goals.
                 I'm solving your problems with code and create the best product
               </p>
-             <button class=" bg-blue-200 border-none w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md ring ring-purple-600 ring-offset-4 outline-none dark:ring-offset-blue-100">Make a call</button>
+             <button @click="makecall()" class=" bg-blue-200 border-none w-1/4 py-2 rounded-md max-md:w-1/2 cursor-pointer text-md ring ring-purple-600 ring-offset-4 outline-none dark:ring-offset-blue-100">Make a call</button>
             </div>
 
           </div>
